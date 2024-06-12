@@ -1,0 +1,80 @@
+body{
+    background-color: var(--background-color, hsl(185, 75%, 39%));
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 400px;
+    height: 300px;
+    background-color: var(--card-color, hsl(0, 0%, 59%));
+
+    border-radius: 1rem;
+}
+
+.card-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image{
+    margin-top: 1rem;
+}
+
+.card-image img{
+    width: 90px;
+    height: 90px;
+
+    border-radius: 50%;
+}
+
+.info-pessoais{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.info-pessoais h1{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.info-pessoais h1 span,
+.info-pessoais p{
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--text-color, hsl(227, 10%, 46%));
+}
+
+.card-conteudo hr{
+    width: 100%;
+    margin: 1.5rem 0;
+    color: var(--text-color, hsl(227, 10%, 46%));
+}
+
+.info-sociais{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.info-sociais li{
+    color: var(--text-color, hsl(227, 10%, 46%));
+    font-size: .8rem;
+}
+
+.info-sociais span{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000;
+}
+
